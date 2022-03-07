@@ -1,0 +1,293 @@
+$transparent-color: rgba(255, 255, 255, 0.3);
+$designe-color:rgb(255, 85, 113);
+
+* {
+  margin: 0;
+  padding: 0;
+    /* Scrool bar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #ff06aa;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #03031c;
+}
+/* // */
+}
+
+header {
+  height: 20em;
+  background-image: url(/mmm/wave.svg);
+  background-size: cover;
+
+  nav {
+    text-align: center;
+    padding-top: 20px;
+
+    a {
+      padding-left: 15px;
+      font-size: 20px;
+      color: black;
+      text-decoration: unset;
+      font-family: "Roboto Mono", monospace;
+      transition: ease-in-out 0.1ms;
+      opacity: 50%;
+      &:hover {
+        color: rgb(248, 246, 246);
+        text-decoration-line: underline;
+        text-decoration-style: double;
+        text-underline-offset: 10px;
+        opacity: 100%;
+      }
+    }
+  }
+
+  .logo {
+    padding-top: 35px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    filter: invert(1);
+  }
+}
+
+main {
+    padding-top: 30px;
+  max-height: 30em;
+  h1 {
+    text-align: center;
+    font-size: 35px;
+  }
+  .card-align {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+   
+  }
+  .card {
+    width: 400px;
+    height: 250px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    background-color: $transparent-color;
+    box-shadow: rgba(248, 245, 245, 0.9) 5px 1px 5px 2px;
+    transition: ease 0.4s;
+    &:hover {
+      box-shadow: rgba(187, 184, 184, 0.9) 5px 1px 5px 2px;
+      width: 405px;
+    }
+    text-align: center;
+    img {
+      width: 100%;
+      height: 100px;
+    }
+    h4 {
+      padding-top: 25px;
+      font-size: 20px;
+    }
+  }
+
+  .section-1{
+      margin-top: 12em;
+      display: flex;
+      margin-left: 50px;
+    
+      
+
+      .title-description{
+          width: 700px;
+          
+          p{
+              padding-top: 30px;
+              font-size: 22px;
+              font-weight: 200;
+              font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+              line-height: 1.3;
+          }
+      }
+
+      img{
+
+        //   width: 800px;
+          height: 500px;
+      }
+  }
+
+  section{
+    .section-align{
+      display: flex;
+      justify-content: space-evenly;
+
+    }
+    h2{
+        margin-top: 3em;
+        font-size: 40px;
+        color: #333;
+    text-align: center;
+    }
+  }
+  .section2{
+      height: 30em;
+      margin-top: 7em;
+      line-height: 1.3;
+      text-align: center;
+      
+    
+  }
+
+.card-section2{
+    width: 300px;
+    height: 400px;
+    border: 1px solid rgba(187, 184, 184, 0.9);
+    box-shadow: rgba(187, 184, 184, 0.9) 5px 1px 5px 2px;
+    transition: ease 0.3s;
+    &:hover{
+      border: 1px solid rgba(216, 253, 3, 0.9);
+      background-color: rgba(205, 104, 255, 0.068);
+      margin-top: -5px;
+
+    }
+    
+    #mmm-img{
+      width: 110px;
+      height: 105px;
+    }
+   
+    img{
+        padding-top: 3em;
+        width: 100%;
+        height: 100px;
+        
+    }
+    h5{
+        padding-top: 1em;
+        color: #333;
+        font-size: 22px;
+    }
+    p{
+        padding-top: 1em;
+        font-size: 25px;
+        font-weight: 800;
+    }
+    #bay{
+        margin-top: 1em;
+        width: 150px;
+        height: 50px;
+        font-size: 18px;
+        font-weight: 700;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        background-color:white;
+        color: $designe-color;
+        border: 2px solid $designe-color;
+        cursor: pointer;
+        transition: ease 0.4s;
+        &:hover{
+            background-color: $designe-color;
+            color: white;
+        }
+    }
+  
+}
+.section3{
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+
+.section3-card{
+  margin-top: 7em;
+  width: 400px;
+  height: 200px;
+  text-align: center;
+  box-shadow: 1px 1px 1px 0px #333;
+
+  img{
+    width: 100%;
+    height: 70px;
+  }
+
+  p{
+    margin-top: 2em;
+    font-size: 22px;
+    
+  }
+}
+.section3-info{
+  position:absolute;
+ width: 1200px;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ font-weight: 100;
+
+  
+
+
+p{
+margin-left: 30em;
+
+}
+}
+
+}
+.section4{
+  margin-top: 9em;
+  text-align: center;
+  display: flex;
+  margin: 5em;
+  h2{
+    width: 400px;
+    
+  }
+  .img-s4{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    margin-left: 55em;
+  }
+  .img2-s4{
+    margin-left: 0;
+    margin-top: 22em;
+  }
+  img{
+    position: absolute;
+    margin-top: 5em;
+    width: 500px;
+    height: 600px;
+    box-sizing: border-box;
+  }
+  .contact-email{
+    
+    #input-email{
+    margin-top: 25em;
+    margin-left: 22em;
+    width: 350px;
+    height: 50px;
+    font-size: 18px;
+    border: 3px solid rgba(255, 85, 113, 0.068) ;
+    border-radius: 5px;
+    background-color: rgba(51, 51, 51, 0.048);
+    }
+  button{
+    width: 100px;
+    height: 50px;
+    margin-top: 5px;
+    margin-left: 22em;
+    font-size: 18px;
+    background-color: #df33a3;
+    color: white;
+    border: 3px solid $designe-color ;
+    border-radius: 5px;
+    transition: ease 0.4s;
+    cursor: pointer;
+    &:hover{
+      background-color: $designe-color;
+    }
+  }
+  
+  }
+  
+  }
+}

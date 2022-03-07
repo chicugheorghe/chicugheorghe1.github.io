@@ -1,0 +1,446 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+    
+
+}
+body{
+    z-index: 1;
+    /* background: #457fca;  fallback for old browsers */
+/* background: -webkit-linear-gradient(to right, #5691c8, #457fca);  Chrome 10-25, Safari 5.1-6 */
+/* background: linear-gradient(to right, #5691c8, #457fca); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+/* background: url(cool-background.png); */
+
+/* background-color: #4158D0; */
+/* background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%); */
+/* background-image: linear-gradient(to right, #868f96 0%, #596164 100%); */
+background-color: rgb(27, 25, 25);
+
+background-size:cover;
+background-repeat: no-repeat;
+    max-width: 90%;
+    /* border: 5px solid red; */
+    margin: 0 auto;
+    margin-top: 60px;
+    
+    
+}
+
+header{
+    z-index: 2;
+    background-color: #cccccc;
+    /* background-image: linear-gradient(red, yellow); */
+    
+    background: url(869923.gif);
+    /* background: url(4-Blockchain-Energy-Companies-to-Watch-in-2019.jpg); */
+    border:solid 2px #457fca ;
+    /* box-shadow: #3778ce 2px 2px 5px 5px; */
+    border-radius: 10px;
+ background-repeat: no-repeat;
+    background-size:cover;
+    width: 100%;
+height: 600px;
+/* overflow: hidden; */
+
+
+
+}
+
+
+header {
+    justify-content: space-between;
+    /* display: flex; */
+    /* position: relative; */
+}
+
+
+.logo{
+margin: 25px;
+margin-left: 42%;
+width: 15%;
+height: 60px;
+filter: invert();
+transform: rotate(45deg);
+transition: 0.5s;
+
+}
+
+.logo:hover{
+    width: 15%;
+    transform: rotate(0deg);
+    
+}
+
+
+.nav-link{
+   list-style: none; 
+  margin-top: -100px;
+   /* border: 1px solid red; */
+   width: 400px;
+   
+}
+
+
+li a{
+    padding-left: 15px;
+    font-size: 20px;
+    color: white;
+    text-decoration: unset;
+    font-family: 'Roboto Mono', monospace;
+    transition: ease-in-out 0.1ms;
+    opacity: 50%;
+}
+
+li a:hover{
+  color: rgb(248, 246, 246);
+  text-decoration-line: underline;
+  text-decoration-style:double;
+  text-underline-offset: 10px;
+  opacity: 100%;
+  
+}
+
+.crypto{
+    position: absolute;
+    max-width: 100%;
+    max-height: 80%;
+    /* border: 1px solid red; */
+    margin:500px 600px;
+    transition: all ease 0.8s;
+
+}
+
+.crypto:hover{
+    position: absolute;
+    max-width: 100%;
+    max-height: 82%;
+    
+    
+    
+}
+
+.crypto1{
+    position: absolute;
+    margin: 0%;
+    margin-top: 60px;
+    display: flex;
+    max-width: 100%;
+    /* max-height: 70%; */
+}
+
+.crypto1:hover{
+    transform: rotate(2deg);
+}
+
+.text-header{
+width: 420px;
+color: rgb(255, 255, 255);
+font-size: 25px;
+position: absolute;
+margin: 20px 55%;
+font-family: 'Roboto Mono', monospace;
+
+
+ 
+
+}
+
+
+.text-header  {
+    /* position: absolute; */
+    bottom: 0px;
+    /* padding-left: 50px; */
+    font-size: 18px;
+    font-weight: 200;
+    font-style: oblique;
+    transition: ease-in-out 0.3s;
+    text-shadow: lightgoldenrodyellow 5px 5px 5px 5px;
+    /* font-family: 'Licorice', cursive; */
+}
+
+
+
+
+
+@media only screen and (max-width: 1059px) {
+    .text-header p{
+        padding-right: 130px;
+    }
+}
+@media only screen and (max-width: 887px){
+header{
+
+    height: 484px;
+    max-width: 100%;
+}
+}
+/* border: 2px solid rgb(255, 255, 255,.2);
+border-radius: 5px;
+background-color:rgb(255, 255, 255,.2); */
+
+
+.info-mmm{
+    padding-top: 8em;
+    font-size: 25px;
+    color: white;
+    width: 450px;
+    height: 300px;
+    font-weight: 300;
+    font-style: italic;
+    font-family:cursive;
+    text-align: center;
+    
+    
+
+}
+
+.info-mmm span{
+    font-size: 30px;
+    position: absolute;
+    color:yellow;
+    animation-duration: 5s;
+  animation-name: slidein;
+  animation-iteration-count:infinite;
+}
+
+@keyframes slidein {
+    from {
+      /* margin-left: 100%; */
+      /* width: 55%; */
+    }
+  
+    to {
+      margin-left: -54%;
+      width: 100%;
+    }
+  }
+
+.container-1{
+    display: flex;
+    margin-top: 12em;
+   background-color: white;
+    height: 500px;
+    border-radius: 20px;
+background-repeat: no-repeat;
+background-size:contain;
+align-items: center;
+justify-content:space-evenly;
+z-index: 3333;
+
+}
+
+.container-2{
+    width: 300px;
+    text-align: center;
+    
+}
+
+
+.container2-title{
+    font-size: 22px;
+    font-weight: 700;
+    padding-top: 25px;
+    font-family: monospace;
+    
+}
+
+.container2-paragraf{
+    padding-top: 15px;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+
+/* Scrool bar */
+::-webkit-scrollbar {
+    width: 6px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #ff06aa;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-track {
+    background: #03031c;
+}
+/* // */
+
+
+.container-3-position{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 8em;
+    border-radius: 20px;
+    background-image: url(container4.png);
+    background-size: 100% 100%;
+    text-align: center;
+justify-content: center;
+ background-color: #03031c;
+    color: #fff;
+    
+
+}
+
+
+.container-3{
+    background-color: rgb(255, 255, 255, 0.1);
+    width: 370px;
+    height: 400px;
+    padding-top: 2em;
+    box-sizing: border-box;
+    margin: 15px 15px;
+    margin-top: 25px;
+    border-radius: 20px;
+    box-shadow: rgb(255, 255, 255, 0.3) 2px 1px 1px 1px;
+    transition:  ease-in-out 0.3s;
+}
+.container-3:hover{
+    box-shadow:1px 10px  20px 1px rgb(255, 92, 92);
+    /* transform:rotate(0.2deg); */
+    margin-top: 15px;
+    
+}
+
+
+.container-3-title{
+    padding-top: 15px;
+    font-size: 25px;
+    font-weight: 700;
+
+}
+
+.container-3-detail{
+    padding-top: 15px;
+    font-size: 20px;
+    font-family: -webkit-pictograph;
+    transition: ease 0.5s;
+}
+
+.container-3-detail:hover{
+    /* font-size: 22px; */
+    /* transform: rotate(25deg); */
+}
+
+
+::placeholder{color: white;}
+.contact-form{
+margin: 0 auto;
+    width: 700px;
+    /* border: 1px solid red; */
+    margin-top: 12em ;
+    height: 500px;
+   
+
+}
+
+.contact-form input{
+    background: rgb(255, 255, 255, 0.3);
+    border: none;
+    color: #fff;
+}
+
+.firstName-lastName{
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+.firstName-lastName input{
+    width: 320px;
+    height: 50px;
+    font-size: 18px;
+    padding-left: 10px;
+    font-family:cursive;
+    
+}
+
+.input-mail{
+    padding-top: 20px;
+}
+
+.input-mail input{
+    width: 700px;
+    height: 50px;
+    font-size: 18px;
+    padding-left: 10px;
+    font-family:cursive;
+}
+
+.input-comment {
+    padding-top: 20px;
+}
+.input-comment input{
+    width: 700px;
+    height: 150px;
+    font-size:18px ;
+    font-family:cursive;
+}
+
+.input-button{
+    padding-top: 20px;
+    
+}
+
+.input-button input{
+    width: 100px;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.contact{
+    padding-top: 100px;
+    text-align: center;
+    position: relative;
+    color: white  ;
+
+    
+}
+
+.contact h3{
+    font-size: 30px;
+    
+}
+
+.contact p{
+    color: whitesmoke;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+    padding-top: 30px;
+    font-size: 25px;
+    
+    
+}
+#button-send:hover{
+    transition:all 0.2s;
+    background-color: rgb(149, 221, 40);
+}
+
+
+#errorMessage{
+    color: white;
+
+    padding-top: 10px;
+}
+
+.aside-mesage{
+    position: absolute;
+    color: white;
+    /* top: 20px; */
+    margin-top: -190px;
+    margin-left: 450px;
+}
+
+footer, a{
+    height: 100px;
+    text-align: center;
+    color:white;
+    font-size: 18px;
+    text-decoration: none;
+    
+}

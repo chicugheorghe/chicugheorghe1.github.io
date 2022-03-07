@@ -1,0 +1,522 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  z-index: 1;
+  /* background: #457fca;  fallback for old browsers */
+  /* background: -webkit-linear-gradient(to right, #5691c8, #457fca);  Chrome 10-25, Safari 5.1-6 */
+  /* background: linear-gradient(to right, #5691c8, #457fca); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  /* background: url(cool-background.png); */
+  /* background-color: #4158D0; */
+  /* background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%); */
+  /* background-image: linear-gradient(to right, #868f96 0%, #596164 100%); */
+  background-color: #1b1919;
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-width: 90%;
+  /* border: 5px solid red; */
+  margin: 0 auto;
+  margin-top: 60px;
+  /* Scrool bar */
+  /* // */
+}
+
+body ::-webkit-scrollbar {
+  width: 6px;
+}
+
+body ::-webkit-scrollbar-thumb {
+  background-color: #ff06aa;
+  border-radius: 10px;
+}
+
+body ::-webkit-scrollbar-track {
+  background: #03031c;
+}
+
+header {
+  z-index: 2;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #cccccc;
+  /* background-image: linear-gradient(red, yellow); */
+  background: url(869923.gif);
+  /* background: url(4-Blockchain-Energy-Companies-to-Watch-in-2019.jpg); */
+  border: solid 2px #457fca;
+  /* box-shadow: #3778ce 2px 2px 5px 5px; */
+  border-radius: 10px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 600px;
+}
+
+header .logo {
+  margin: 25px;
+  margin-left: 42%;
+  width: 15%;
+  height: 60px;
+  -webkit-filter: invert(1);
+          filter: invert(1);
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+header .logo:hover {
+  width: 15%;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+}
+
+header .nav-link {
+  list-style: none;
+  margin-top: -100px;
+  /* border: 1px solid red; */
+  width: 400px;
+}
+
+header .nav-link a {
+  padding-left: 15px;
+  font-size: 20px;
+  color: white;
+  text-decoration: unset;
+  font-family: 'Roboto Mono', monospace;
+  -webkit-transition: ease-in-out 0.1ms;
+  transition: ease-in-out 0.1ms;
+  opacity: 50%;
+}
+
+header .nav-link a:hover {
+  color: #f8f6f6;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  -webkit-text-decoration-style: double;
+          text-decoration-style: double;
+  text-underline-offset: 10px;
+  opacity: 100%;
+}
+
+header .iframe2 {
+  position: absolute;
+  margin: -300px 0;
+}
+
+header .crypto {
+  z-index: 3;
+  position: absolute;
+  max-width: 100%;
+  max-height: 80%;
+  /* border: 1px solid red; */
+  margin: 500px 600px;
+  -webkit-transition: all ease 0.8s;
+  transition: all ease 0.8s;
+}
+
+header .crypto:hover {
+  position: absolute;
+  max-width: 100%;
+  max-height: 82%;
+}
+
+header .crypto1 {
+  position: absolute;
+  margin: 0%;
+  margin-top: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 100%;
+  /* max-height: 70%; */
+}
+
+header .crypto1:hover {
+  -webkit-transform: rotate(2deg);
+          transform: rotate(2deg);
+}
+
+header .text-header {
+  width: 420px;
+  color: white;
+  font-size: 18px;
+  font-weight: 200;
+  font-style: oblique;
+  -webkit-transition: ease-in-out 0.3s;
+  transition: ease-in-out 0.3s;
+  text-shadow: lightgoldenrodyellow 5px 5px 5px 5px;
+  bottom: 0px;
+  position: absolute;
+  margin: 20px 55%;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.info-mmm {
+  padding-top: 8em;
+  font-size: 25px;
+  color: white;
+  width: 450px;
+  height: 300px;
+  font-weight: 300;
+  font-style: italic;
+  font-family: cursive;
+  text-align: center;
+}
+
+.info-mmm span {
+  font-size: 30px;
+  position: absolute;
+  color: yellow;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-name: slidein;
+          animation-name: slidein;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes slidein {
+  from {
+    /* margin-left: 100%; */
+    /* width: 55%; */
+  }
+  to {
+    margin-left: -54%;
+    width: 100%;
+  }
+}
+
+@keyframes slidein {
+  from {
+    /* margin-left: 100%; */
+    /* width: 55%; */
+  }
+  to {
+    margin-left: -54%;
+    width: 100%;
+  }
+}
+
+.container-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 12em;
+  background-color: white;
+  height: 500px;
+  border-radius: 20px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  z-index: 3333;
+}
+
+.container-1 .container-2 {
+  width: 300px;
+  text-align: center;
+}
+
+.container-1 .container-2 .container2-title {
+  font-size: 22px;
+  font-weight: 700;
+  padding-top: 25px;
+  font-family: monospace;
+}
+
+.container-1 .container-2 .container2-paragraf {
+  padding-top: 15px;
+  font-size: 20px;
+  font-weight: 200;
+}
+
+.container-3-position {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 8em;
+  border-radius: 20px;
+  background-image: url(container4.png);
+  background-size: 100% 100%;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #03031c;
+  color: #fff;
+}
+
+.container-3-position .container-3 {
+  background-color: rgba(255, 255, 255, 0.1);
+  width: 370px;
+  height: 400px;
+  padding-top: 2em;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 15px 15px;
+  margin-top: 25px;
+  border-radius: 20px;
+  -webkit-box-shadow: rgba(255, 255, 255, 0.3) 2px 1px 1px 1px;
+          box-shadow: rgba(255, 255, 255, 0.3) 2px 1px 1px 1px;
+  -webkit-transition: ease-in-out 0.3s;
+  transition: ease-in-out 0.3s;
+}
+
+.container-3-position .container-3:hover {
+  -webkit-box-shadow: 1px 10px 20px 1px #ff5c5c;
+          box-shadow: 1px 10px 20px 1px #ff5c5c;
+  /* transform:rotate(0.2deg); */
+  margin-top: 15px;
+}
+
+.container-3-position .container-3 .container-3-title {
+  padding-top: 15px;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.container-3-position .container-3 .container-3-detail {
+  padding-top: 15px;
+  font-size: 20px;
+  font-family: -webkit-pictograph;
+  -webkit-transition: ease 0.5s;
+  transition: ease 0.5s;
+}
+
+.contact {
+  padding-top: 100px;
+  text-align: center;
+  position: relative;
+  color: white;
+}
+
+.contact h3 {
+  font-size: 30px;
+}
+
+.contact p {
+  color: whitesmoke;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 100;
+  padding-top: 30px;
+  font-size: 25px;
+}
+
+.contact-form {
+  margin: 0 auto;
+  width: 700px;
+  /* border: 1px solid red; */
+  margin-top: 12em;
+  height: 400px;
+}
+
+.contact-form ::-webkit-input-placeholder {
+  color: white;
+}
+
+.contact-form :-ms-input-placeholder {
+  color: white;
+}
+
+.contact-form ::-ms-input-placeholder {
+  color: white;
+}
+
+.contact-form ::placeholder {
+  color: white;
+}
+
+.contact-form input {
+  background: rgba(255, 255, 255, 0.3);
+  border: none;
+  color: #fff;
+}
+
+.contact-form .input-lastName input {
+  width: 320px;
+  height: 50px;
+  font-size: 18px;
+  padding-left: 10px;
+  font-family: cursive;
+}
+
+.contact-form .firstName-lastName {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.contact-form .firstName-lastName input {
+  margin-top: 15px;
+  width: 320px;
+  height: 50px;
+  font-size: 18px;
+  padding-left: 10px;
+  font-family: cursive;
+}
+
+.contact-form .input-mail {
+  padding-top: 20px;
+}
+
+.contact-form .input-mail input {
+  width: 700px;
+  height: 50px;
+  font-size: 18px;
+  padding-left: 10px;
+  font-family: cursive;
+}
+
+.contact-form .input-comment {
+  padding-top: 20px;
+}
+
+.contact-form .input-comment input {
+  width: 700px;
+  height: 150px;
+  font-size: 18px;
+  font-family: cursive;
+}
+
+.contact-form .input-button {
+  padding-top: 20px;
+}
+
+.contact-form .input-button input {
+  width: 100px;
+  height: 40px;
+  font-size: 18px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.contact-form #button-send:hover {
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  background-color: #95dd28;
+}
+
+.contact-form #errorMessage {
+  color: white;
+  padding-top: 10px;
+}
+
+.contact-form .aside-mesage {
+  position: absolute;
+  color: white;
+  /* top: 20px; */
+  margin-top: -190px;
+  margin-left: 450px;
+}
+
+footer {
+  padding-top: 100px;
+  height: 100px;
+  text-align: center;
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+footer a {
+  color: white;
+}
+
+footer a:hover {
+  color: #e7e7e7;
+}
+
+@media only screen and (max-width: 375px) {
+  body {
+    width: 100%;
+  }
+  .container-1 {
+    width: 100%;
+  }
+  header .logo {
+    width: 50%;
+    margin: 15px 80px;
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  header .crypto {
+    z-index: 3;
+    position: absolute;
+    max-width: 50%;
+    max-height: 80%;
+    margin: 582px 41px;
+  }
+  header .crypto1 {
+    display: none;
+  }
+  header .nav-link {
+    padding: 115px 40px;
+  }
+  header .iframe2 {
+    position: absolute;
+    margin: -309px -333px;
+  }
+  .info-mmm {
+    width: 358px;
+    height: 195px;
+    font-size: 22px;
+  }
+  .info-mmm span {
+    font-size: 25px;
+  }
+  .info-mmm span to {
+    margin-left: -58%;
+    width: 100%;
+  }
+  .container-1 {
+    width: 100%;
+    height: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .container-1 .container-2 {
+    margin: 25px;
+  }
+  .contact-form {
+    margin-left: -10px;
+  }
+  .contact-form .input-lastName input {
+    margin-top: -20px;
+  }
+  .contact-form .input-mail input {
+    width: 345px;
+  }
+  .contact-form .input-comment input {
+    width: 350px;
+  }
+  footer {
+    margin-top: 70px;
+  }
+}
+/*# sourceMappingURL=main.css.map */
